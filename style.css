@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'IM Fell English SC', serif;
+}
+
+.container{
+    /* width: 300px; */
+    height: 75vh;
+    /* border: 2px solid red; */
+    padding: 80px 30px;
+    background-image: url("https://external-preview.redd.it/8h5qLe0gClsxt2M1hdhs9updGpFdXT-cvhVPAhXtOOY.gif?s=93a238e6023641e983bd5d6f1495d042556f256c");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container h1{
+    color: rgb(221, 224, 175);
+    text-align: center;
+    font-size: 46px;
+}
+
+.counter-container{
+    border: 2px solid rgb(167, 161, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 80px;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.counter-container-start{
+    box-shadow: 10px 10px 10px 10px rgb(226, 226, 183);
+}
+
+
+
+
+.button-container{
+    /* border: 2px solid grey; */
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    min-width: 400px;
+}
+
+.start-button{
+    outline: none;
+    border: 2px solid white;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.start-button:hover{
+    border: 2px solid rgb(117, 226, 117);
+    box-shadow: 5px 5px 10px 2px rgb(77, 236, 77);
+}
+
+
+.end-button{
+    outline: none;
+    border: 2px solid white;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.end-button:hover{
+    border: 2px solid rgb(231, 93, 93);
+    box-shadow: 5px 5px 10px 2px rgb(236, 77, 77);
+}
+
+.reset-button{
+    outline: none;
+    border: 2px solid white;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.reset-button:hover{
+    border: 2px solid rgb(93, 157, 231);
+    box-shadow: 5px 5px 10px 2px rgb(77, 114, 236);
+}
+
+.start-button-display{
+    display: none;
+}
+
+.end-button-display{
+    display: none;
+}
+
+.reset-button-display{
+    display: none;
+}
